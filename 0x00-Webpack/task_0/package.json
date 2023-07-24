@@ -1,14 +1,21 @@
 {
   "name": "task_0",
   "version": "1.0.0",
-  "description": "",
+  "description": "This project is 0x00-Webpack",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "asset compilation",
+    "entry points",
+    "javascript",
+    "loaders",
+    "output",
+    "webpack plugins"
+  ],
+  "author": "Allan Too",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.22.9",
