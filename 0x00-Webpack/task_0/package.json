@@ -1,11 +1,12 @@
 {
   "name": "task_0",
   "version": "1.0.0",
-  "description": "This project is 0x00-Webpack",
+  "description": "wpbpack setup project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --mode development"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "keywords": [
     "asset compilation",
@@ -15,16 +16,11 @@
     "output",
     "webpack plugins"
   ],
-  "author": "Allan Too",
+  "author": "Allan",
   "license": "ISC",
-  "devDependencies": {
-    "@babel/core": "^7.22.9",
-    "@babel/preset-env": "^7.22.9",
-    "babel-loader": "^9.1.3",
+  "dependencies": {
+    "jquery": "^3.7.0",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
-  },
-  "dependencies": {
-    "jquery": "^3.7.0"
   }
 }
